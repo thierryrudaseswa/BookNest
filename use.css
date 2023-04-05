@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+     background-image: url(des\ \(1\).jfif); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    width: 70%;
+     font-size: 1.23em;
+}
+.container3{
+    padding: 30px 50px;
+    font-size: 0.9em;
+}
+.head{
+    margin: 20px;
+    color: rgb(8, 8, 8);
+    font-size: 2.4em;
+    padding: 10px  40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cont3{
+    margin: 20px;
+}
+.one{
+    color: rgb(12, 12, 12);
+    line-height: 1.5;
+    margin-top: 90px;
+    padding: 20px;
+    font-size: 1.3em;
+    text-transform: initial;
+}
+span{color: rgb(12, 12, 11);
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 40px;
+  text-transform: uppercase;
+}
+p{
+    margin-top: 1.1em;}
+
+    @keyframes circs{
+
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-radius: 0px;  
+        }
+        100%{
+            transform: translateY(1000px) rotate(720deg);
+            opacity: 1;
+            border-radius: 0px;
+    
+        }
+    }
+    .circ{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10vh;
+        overflow: hidden;
+        
+    }
+    .two{
+        animation: circs 25sec linear infinite;
+        top: -15px;
+        width: 20px;
+        height: 20px;
+        background-color: aqua;
+    }
+    
