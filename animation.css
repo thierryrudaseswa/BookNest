@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerr{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(54, 172, 107), rgb(62, 199, 188), rgb(4, 124, 50));
+}
+divs{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.div{
+    width: 100px;
+    height: 100px;
+    display: block;
+    top: -20%;
+    background-color: rgb(229, 239, 248);
+    animation: boxes 5s linear infinite;
+    position: absolute;
+}
+@keyframes boxes {
+    0%{
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+        border-radius: 0%;
+
+    }
+    25%{
+
+        opacity: 0.75;
+        /* transform: translateY(20vh) rotate(720deg); */
+        border-radius: 25%;
+    }
+    50%{
+
+        opacity: 0.5;
+        /* transform: translateY(200vh) rotate(720deg); */
+        border-radius: 50%;
+    }
+    75%{
+
+        opacity: 0.25;
+        /* transform: translateY(50vh) rotate(720deg); */
+        border-radius: 75%;
+    }
+    100%{
+
+        opacity: 0;
+        transform: translateY(200vh) rotate(720deg);
+        border-radius: 100%;
+    }
+    
+}
+.div:nth-child(1){
+    width: 300px;
+    height: 100px;
+    animation-delay: 0s;
+    animation-duration: 5s;
+margin-left: 400px;
+background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2.1em;
+}
+.div:nth-child(2){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 100px;
+    height: 90px;
+    left: 80%;
+    animation-delay: 0s;
+    animation-duration: 8s;
+    margin: 100px;
+    font-size: 0.5em;
+}
+.div:nth-child(3){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 30px;
+    height: 90px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+    margin-left: 350px;
+    font-size: 0.2em;
+    
+}
+.div:nth-child(4){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 300px;
+    height: 60px;
+    animation-delay: 4s;
+    animation-duration: 6s;
+    margin-left: 90px;
+    font-size: 1.3em;
+}
+.div:nth-child(5){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 40px;
+    height: 70px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    margin-left: 500px;
+    font-size: 0.2em;
+
+}
+.div:nth-child(6){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 20px;
+    height: 40px;
+    animation-delay: 2s;
+    animation-duration: 9s;
+    margin-left: 470px;
+    font-size: 0.1em;
+}
+.div:nth-child(7){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 60px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    margin-left: 207px;
+    font-size: 0.7em;
+}
+.div:nth-child(8){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 300px;
+    height: 90px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    margin: 110px;
+    font-size: 1.3em;
+}
+.div:nth-child(9){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 130px;
+    height: 30px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    margin: 333px;
+    font-size:1.8em;
+}
+.div:nth-child(10){
+    background: linear-gradient(rgb(13, 13, 230), rgb(240, 240, 30), rgb(16, 236, 16)
+);
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 200px;
+    height: 30px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    margin: 150px;
+}
